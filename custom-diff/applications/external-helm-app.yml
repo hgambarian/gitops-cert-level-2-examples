@@ -32,4 +32,4 @@ spec:
     kind: Deployment
     namespace: example02
     jsonPointers:
-     - /metadata/annotations
+     - /metadata/annotations/creation
