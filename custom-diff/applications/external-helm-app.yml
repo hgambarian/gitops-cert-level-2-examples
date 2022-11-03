@@ -28,3 +28,8 @@ spec:
     namespace: example02
     jsonPointers:
      - /data
+  - group: apps
+    kind: Deployment
+    namespace: example02
+    jsonPointers:
+     - /metadata/annotations
